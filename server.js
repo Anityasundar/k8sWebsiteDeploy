@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // API route
 app.get('/api/hello', (req, res) => {
-  res.send('👋 Hello from the backend!');
+  res.send('👋 Hello Anitya I am from the backend!');
 });
 
 app.listen(PORT, () => {
